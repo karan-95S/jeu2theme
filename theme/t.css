@@ -1,0 +1,11 @@
+#Pre, #Perso{
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	padding-top: 0;
+}
+
+#Pre h3, #Perso h3{
+	margin: 5px;
+}
