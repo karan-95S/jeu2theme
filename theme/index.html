@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="t.css">
+	<script src="java.js"></script>
+    
+	<title>Thème</title>
 </head>
 <body>
+	<h1>Veuillez choisir le type de thème :</h1>
+	
+    <input type="radio" id="radioA" name="options" value="Pre">
+    <label for="radioA">Thèmes prédéfinit</label>
+    <br>
+
+    <input type="radio" id="radioB" name="options" value="Perso">
+    <label for="radioB">Thèmes personnalisés</label>
+
+    <div id="Pre">
+    	<h3>Thèmes prédéfinit</h3>
+    </div>
+
+    <div id="Perso">
+    	<h3>Thèmes personnalisés</h3>
+	</div>
 
 </body>
 </html>
